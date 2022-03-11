@@ -23,7 +23,6 @@ printf("Buffer size %d out of %d\n",store,buff_size);
 store=buff_size;
 }
 store=store-outgoing;
-
 printf("after outgoing %d packets left in buffer %d",store,buff_size);
 n--;
 }
