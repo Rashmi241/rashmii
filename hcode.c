@@ -26,7 +26,7 @@
  {
  printf("no error/n");
  }
- else
+  else
  {
  printf("\n error detected in pos=%d\n",c);
  }
