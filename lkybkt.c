@@ -19,13 +19,12 @@ store+=incoming;
 else
 {
 printf("\n%d packet is dropped\n",incoming-(buff_size-store));
-store=buff_size;
 printf("Buffer size %d out of %d\n",store,buff_size);
-
+store=buff_size;
 }
 store=store-outgoing;
 
-printf("after outgoing %d packets left in buffer%d",store,buff_size);
+printf("after outgoing %d packets left in buffer %d",store,buff_size);
 n--;
 }
 }
