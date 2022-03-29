@@ -24,7 +24,7 @@
  c=c3*4+c2*2+c1;
  if(c==0)
  {
- printf("no error/n");
+ printf("no error\n");
  }
   else
  {
